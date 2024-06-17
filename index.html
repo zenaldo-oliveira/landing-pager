@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inicio google fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fim google fontes -->
+    <!-- inicio font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fim font -->
+    <!-- inicio jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--fim jquery -->
+    <!-- inicio link css -->
+    <link rel="stylesheet" href="style.css">
+    <!--  fim link css -->
+    <title>ifood-dev-naldo</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="./assets/logo.jpg" alt="image-logo" id="nav_logo" width="80px">
+
+            <ul id="nav_list">
+
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">O sabor que vai até você" sugere uma experiência gastronômica única e acessível,
+                    onde os sabores são entregues diretamente ao cliente, oferecendo conveniência e satisfação. Imagine
+                    uma propaganda de um serviço de entrega de alimentos que destaca a qualidade e a diversidade dos
+                    pratos oferecidos, garantindo que cada refeição seja uma viagem culinária..
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        ver Cardápio
+                    </a>
+
+                    <a href="tel:+65992852422" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11)92342-3243
+                    </a>
+
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="./assets/hero.png" alt="image platos">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos Pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/dish.png" class="dish-image" alt="image plato peixe">
+                    <h3 class="dish-title">
+                        pintado ao molho branco.
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$45.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/dish2.png" class="dish-image" alt="image plato peixe">
+                    <h3 class="dish-title">
+                        pintado ao molho branco.
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$45.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/dish3.png" class="dish-image" alt="image plato peixe">
+                    <h3 class="dish-title">
+                        pintado ao molho branco.
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$45.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/dish4.png" class="dish-image" alt="image plato peixe">
+                    <h3 class="dish-title">
+                        pintado ao molho branco.
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$45.00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            </setion>
+
+            <section id="testimonials">
+                <img src="./assets/chef.png" id="testimonial_chef" alt="image do chefe de cozinha">
+
+                <div id="testimonials_content">
+                    <h2 class="section-title">
+                        Depoimentos
+                    </h2>
+                    <h3 class="section-subtitle">
+                        O que os cliente falam sobre nós.
+                    </h3>
+
+                    <div id="feedbacks">
+                        <div class="feedback">
+                            <img src="./assets/avatar.png" class="feedback-avatar" alt="image avatar">
+                            <div class="feedback-content">
+                                <p>
+                                    Rebeca
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>Maria silva.<br>
+                                    Data: 12 de junho de 2024
+                                    Comentário: "Estou extremamente satisfeito com a qualidade do atendimento. A equipe
+                                    é muito atenciosa e eficiente. Recomendo a todos!"
+                                    .</p>
+                            </div>
+                        </div>
+
+                        <div class="feedback">
+                            <img src="./assets/avatar.png" class="feedback-avatar" alt="image avatar">
+                            <div class="feedback-content">
+                                <p>
+                                    Manuella
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+
+                                    </span>
+                                </p>
+                                <p>Ana Costa.<br>
+                                    Data: 8 de março de 2024
+                                    Comentário: "Fiquei impressionada com o suporte ao cliente. Resolveram meu problema
+                                    de forma rápida e eficiente. Nota 10!".</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-default">
+                        <a href="https://support.google.com/business/answer/3474122?hl=pt-BR">
+                            Ver mais avaliações
+                        </a>
+
+                    </button>
+
+
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <img src="./assets/wave.svg" alt="image wave">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 zenaldo dev.
+            </span>
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
