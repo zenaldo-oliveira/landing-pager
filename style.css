@@ -16,7 +16,7 @@ section {
 
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: 28px 5%;
     position: sticky;
     top: 0;
     background-color: #fff9ea;
@@ -496,5 +496,8 @@ footer{
         flex-direction: column;
         gap: 20px;
     }
+}
+html{
+    scroll-behavior: smooth;
 }
 /* fim rodape footer */
